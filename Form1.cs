@@ -63,6 +63,8 @@ namespace Graph_Project
                     double y_min = double.Parse(y_parts[0], CultureInfo.InvariantCulture);
                     double y_max = double.Parse(y_parts[1], CultureInfo.InvariantCulture);
 
+                    int x_interval = (int)((x_max - x_min) / 10);
+                    chart1.ChartAreas[0].AxisX.Interval = x_interval;
                     // Generate data points based on the equation
                     for (double x = x_min; x <= x_max; x += 0.1)
                     {
