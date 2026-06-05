@@ -7,7 +7,7 @@ This project aims to create a functioning graphing calculator that takes an inpu
   Range values: (x-min, x-max), (y-min, y-max)
 
   Equations: 
-      User inputted equations using the variables y = x. Tthe program should be capable of recognizing signed numbers / variables, addition, subtraction,                 multiplication, division, fractions, decimals, parenthesis, and exponents during the conversion procress.
+      User inputted equations using the variables y = x. The program should be capable of recognizing signed numbers / variables, addition, subtraction,                  multiplication, division, fractions, decimals, parenthesis, and exponents during the conversion procress.
 
 # Interactivity:
 
